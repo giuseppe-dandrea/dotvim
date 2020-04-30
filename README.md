@@ -1,6 +1,6 @@
 Installation:
 
-    git clone <url-to-repo>
+    git clone https://github.com/giuseppe-dandrea/dotvim.git
 
 Create symlinks:
 
