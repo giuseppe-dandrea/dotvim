@@ -86,3 +86,6 @@ if !exists('g:airline_symbols')
     let g:airline_symbols.branch = ''
     let g:airline_symbols.readonly = ''
     let g:airline_symbols.linenr = ''
+
+"gitgutter config
+set updatetime=500
