@@ -1,9 +1,15 @@
+" Pathogen script activation
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 filetype plugin on
 syntax on
 set number
 set smartindent
 set tabstop=4
 set shiftwidth=4
+
+" Set clipboard to system clipboard (requires gvim)
 set clipboard^=unnamed,unnamedplus
 
 let mapleader="\<Space>"
