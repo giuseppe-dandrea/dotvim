@@ -1,16 +1,27 @@
-Installation:
+# Installation
 
     git clone https://github.com/giuseppe-dandrea/dotvim.git
-
-Create symlinks:
-
+	
+	# Create symlinks
     ln -s ~/.vim/vimrc ~/.vimrc
-    ln -s ~/.vim/gvimrc ~/.gvimrc
-
-Switch to the `~/.vim` directory, and fetch submodules:
+	
+	#Switch to the `~/.vim` directory, and fetch submodules:
 
     cd ~/.vim
-    git submodule init
-    git submodule update
+    git submodule update --recursive --init
 
-or you can use option `--recursive` in the first clone.
+N.B. You can use option `--recursive` in the first clone instead of the `git submodule` command
+
+# Dependencies
+## vim-airline
+This plugin requires powerline-fonts to draw triangles and other forms on terminal. Copy paste this script to install the font in `~/.local/share/fonts`
+
+	
+	# clone
+	git clone https://github.com/powerline/fonts.git --depth=1
+	# install
+	cd fonts
+	./install.sh
+	# clean-up a bit
+	cd ..
+	rm -rf fonts
