@@ -1,9 +1,9 @@
 " Pathogen script activation
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
-
+execute pathogen#infect()
 filetype plugin on
 syntax on
+let g:dracula_colorterm=0
+colorscheme dracula
 set number
 set smartindent
 set tabstop=4
