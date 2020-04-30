@@ -25,6 +25,9 @@ nnoremap <leader>bn :bn<cr>
 nnoremap <leader>bp :bp<cr>
 nnoremap <leader>bd :bd<cr>
 
+"open terminal
+nnoremap <leader>t :terminal<cr>
+
 " Command to close a buffer without closing window
 command! Bd bp|bd #
 nnoremap <leader>Bd :Bd<cr>
