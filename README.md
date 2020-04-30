@@ -13,8 +13,8 @@
 N.B. You can use option `--recursive` in the first clone instead of the `git submodule` command
 
 # Dependencies
-## vim-airline
-This plugin requires powerline-fonts to draw triangles and other forms on terminal. Copy paste this script to install the font in `~/.local/share/fonts`
+## Powerline fonts
+Vim-airline requires powerline-fonts to draw triangles and other forms on terminal. Copy paste this script to install the font in `~/.local/share/fonts`
 
 	
 	# clone
