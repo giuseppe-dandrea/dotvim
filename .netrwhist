@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/giuseppe/MEGACLOUD/POLI/DISPENSE/SISTEMI ELETTRONICI TECNOLOGIE E MISURE/03QXVOA - Sistemi elettronici, tecnologie e misure/Appunti'
+let g:netrw_dirhist_2='/home/giuseppe/MEGACLOUD/POLI/Esercitazioni/OPERATING_SYSTEMS/Sintesi/imgs'
+let g:netrw_dirhist_3='/home/giuseppe/MEGACLOUD/Developing/Code'
