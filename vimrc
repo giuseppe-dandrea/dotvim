@@ -14,7 +14,7 @@ set nomodeline
 " Set clipboard to system clipboard (requires gvim)
 set clipboard^=unnamed,unnamedplus
 
-let mapleader="\<Space>"
+let mapleader="\<CR>"
 
 "save current buffer
 nnoremap <leader>w :w<cr>
