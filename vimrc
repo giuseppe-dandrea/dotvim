@@ -11,6 +11,12 @@ set tabstop=4
 set shiftwidth=4
 set nomodeline
 
+" Fix for python indenting with 8 spaces
+augroup python
+	autocmd!
+	autocmd FileType python setlocal noet ts=4
+augroup end
+
 " Set clipboard to system clipboard (requires gvim)
 set clipboard^=unnamed,unnamedplus
 
