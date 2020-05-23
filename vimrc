@@ -5,7 +5,16 @@ filetype plugin indent on
 syntax on
 let g:dracula_colorterm=0
 colorscheme dracula
-set number
+
+"Autotoggle relative numbers
+set number relativenumber
+:augroup numbertoggle
+:  autocmd!
+:  autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
+:  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
+:augroup END
+
+
 set smartindent
 set tabstop=4
 set shiftwidth=4
