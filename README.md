@@ -25,3 +25,7 @@ Vim-airline requires powerline-fonts to draw triangles and other forms on termin
 	# clean-up a bit
 	cd ..
 	rm -rf fonts
+
+# Troubleshooting
+## Git bash for windows
+If vim isn't looking good make sure to switch the emulator terminal of MINGW64 to xterm-256color.
