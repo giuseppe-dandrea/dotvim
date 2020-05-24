@@ -20,6 +20,11 @@ set tabstop=4
 set shiftwidth=4
 set nomodeline
 
+"Mouse integration
+set ttyfast	"Send more characters for redraws
+set mouse=a
+set ttymouse=xterm2
+
 " Fix for python indenting with 8 spaces
 augroup python
 	autocmd!
